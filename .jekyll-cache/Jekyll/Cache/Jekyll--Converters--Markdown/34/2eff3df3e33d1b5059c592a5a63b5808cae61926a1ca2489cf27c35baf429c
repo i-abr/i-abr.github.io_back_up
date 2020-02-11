@@ -1,0 +1,8 @@
+I"K<p>We explored how natural language inference tasks can be augmented with visual data.</p>
+
+<p>Namely, we replicate and expand existing baselines for NLI, including recent deep learning methods. By adding image features to these models, we explore how the textual and visual modalities interact. Specifically, we show that image features can provide a small boost in classifier performance for simpler models, but are a subset of information provided in the premise statement and thus do not benefit complex models. Additionally, we demonstrate a weakness in the SNLI dataset, showing that textual entailment is predictable without reference to the premise statement.</p>
+
+<p><a href="/pdfs/cs224u.pdf" target="_blank">CS224U Paper</a></p>
+
+<p><a href="https://www.youtube.com/watch?v=WO1RJC_9k7s" target="_blank">YouTube Presentation</a></p>
+:ET

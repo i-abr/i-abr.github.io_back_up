@@ -1,0 +1,6 @@
+I"c<p>3D shape classification by learning an embedding function into a 2D image and using a pre-trained ImageNet network. At the time, got state-of-the-art results for single-view classification on ShapeNet40.</p>
+
+<p><a href="/pdfs/cs231n.pdf" target="_blank">CS231N Paper</a></p>
+
+<p><a href="/pdfs/cs231n-poster.pdf" target="_blank">CS231N Poster</a></p>
+:ET
