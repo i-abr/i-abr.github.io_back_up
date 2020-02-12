@@ -80,9 +80,13 @@
                         </td>
                         <!-- <td style="padding:2.5%;width:75%;vertical-align:middle"> -->
                         <td style="padding:20px;width:75%;vertical-align:middle">
-                            <a href={{post.arxiv}}>
-                                {{post.title}}
-                            </a>
+                            {% if post.arxiv %}
+                                <a href={{post.arxiv}}>
+                                    {{post.title}}
+                                </a>
+                            {% else %}
+                                    {{post.title}}
+                            {% endif %}
                           <br>
                             {{post.authors}}
                           <br>

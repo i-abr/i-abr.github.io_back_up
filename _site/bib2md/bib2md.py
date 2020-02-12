@@ -10,6 +10,8 @@ for entry in bib_database.entries:
     year = entry['year']
     month = random.randint(1,12)
     day = random.randint(1,30)
+    if year == '2020':
+        month = 1
     date = year + '-{:02d}-{:02d}'.format(month, day)
     ID = entry['ID']
     file = open(date + '-' + ID + '.md','w')
@@ -49,5 +51,11 @@ for entry in bib_database.entries:
     if 'pdf' in entry.keys():
         pdf = entry['pdf']
         file.write('arxiv: ' + pdf + '\n')
+
     file.write('---\n')
+
+    if 'abstract' in entry.keys():
+        abstract = entry['abstract']
+        file.write(abstract)
+
     file.close()
