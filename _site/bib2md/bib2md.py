@@ -20,13 +20,15 @@ for entry in bib_database.entries:
     file.write('image: \n')
     file.write('categories: research\n')
     file.write('author: Ian Abraham\n')
-    
+
     authors = ''
-    names =entry['author'].split(' and ') 
+    names =entry['author'].split(' and ')
     for i, name in enumerate(names):
         name = name.replace(' ','')
         last_name, first_name = name.split(',')
         name = first_name + ' ' + last_name
+        if first_name == 'Ian':
+            name = '<strong>' + name + '</strong>'
         authors += name
         if i+1 != len(names):
             authors += ', '
@@ -40,6 +42,12 @@ for entry in bib_database.entries:
 
     file.write('venue: ' + '\"' + venue + '\"' + '\n')
 
+    if 'project_page' in entry.keys():
+        site = entry['project_page']
+        file.write('project_page: ' + '\"' + site + '\"' + '\n')
+
+    if 'pdf' in entry.keys():
+        pdf = entry['pdf']
+        file.write('arxiv: ' + pdf + '\n')
     file.write('---\n')
     file.close()
-
