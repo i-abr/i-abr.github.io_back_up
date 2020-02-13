@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Structured neural network dynamics for model-based control"
-date: 2018-12-15
+date: 2018-02-17
 image: 
 categories: research
 author: Ian Abraham

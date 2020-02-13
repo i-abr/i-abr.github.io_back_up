@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Decentralized ergodic control: distribution-driven sensing and exploration for multiagent systems"
-date: 2018-09-12
+date: 2018-10-01
 image: 
 categories: research
 author: Ian Abraham

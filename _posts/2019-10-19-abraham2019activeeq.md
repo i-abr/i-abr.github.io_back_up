@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Active Area Coverage from Equilibrium"
-date: 2019-03-01
+date: 2019-10-19
 image: 
 categories: research
 author: Ian Abraham

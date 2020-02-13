@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "WHISKiT Physics: A three-dimensional mechanical model of the rat vibrissal array"
-date: 2019-12-05
+date: 2019-08-27
 image: 
 categories: research
 author: Ian Abraham

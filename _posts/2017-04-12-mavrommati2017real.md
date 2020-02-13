@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Real-time area coverage and target localization using receding-horizon ergodic exploration"
-date: 2017-08-07
+date: 2017-04-12
 image: 
 categories: research
 author: Ian Abraham

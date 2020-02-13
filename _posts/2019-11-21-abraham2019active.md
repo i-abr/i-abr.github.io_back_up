@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Active Learning of Dynamics for Data-Driven Control Using Koopman Operators"
-date: 2019-03-22
+date: 2019-11-21
 image: 
 categories: research
 author: Ian Abraham
