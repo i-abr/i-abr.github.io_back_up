@@ -2,12 +2,12 @@
 layout: post
 title: "Hybrid Control for Learning Motor Skills"
 date: 2020-01-30
-image: 
+image:
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, Alexander Broad, Allison Pinosky, Brenna Argall, Todd Murphey"
 venue: "(submitted) Workshop on Algorithmic Foundations of Robotics "
-arxiv: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8988215&tag=1
+pdf: /pdfs/hlt.pdf
 ---
 
 

@@ -2,12 +2,12 @@
 layout: post
 title: "Ergodic Measure for Active Learning From Equilibrium"
 date: 2020-01-27
-image: 
+image:
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, Ahalya Prabhakar, Todd Murphey"
 venue: "(submitted) IEEE Transactions on Automation Science and Engineering"
-arxiv: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8988215&tag=1
+pdf: /pdfs/abraham_2019_tase.pdf
 ---
 
 

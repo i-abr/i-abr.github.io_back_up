@@ -75,8 +75,8 @@
               {% for cat in post.categories %}
                   {% if cat == 'research' %}
                       <tr>
-                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-                          <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+                        <td style="padding:1.5%;width:30%;vertical-align:middle;min-width:220px">
+                            <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
                         </td>
                         <!-- <td style="padding:2.5%;width:75%;vertical-align:middle"> -->
                         <td style="padding:20px;width:75%;vertical-align:middle">
@@ -84,19 +84,23 @@
                                 <a href={{post.arxiv}}>
                                     {{post.title}}
                                 </a>
-                            {% else %}
+                            {% elsif post.pdf %}
+                                <a href={{post.pdf}}>
                                     {{post.title}}
+                                </a>
+                            {% else %}
+                                {{post.title}}
                             {% endif %}
                           <br>
                             {{post.authors}}
                           <br>
-                          <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                            <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
                           <br>
                           {% if post.project_page %}
-                            <a href="{{post.project_page}}">project page</a> /
+                            / <a href="{{post.project_page}}">project page</a>
                           {% endif %}
                           {% if post.code %}
-                            <a href="{{post.code}}">code</a>
+                            / <a href="{{post.code}}">code</a>
                           {% endif %}
                           <p></p>
                           {{ post.excerpt }}

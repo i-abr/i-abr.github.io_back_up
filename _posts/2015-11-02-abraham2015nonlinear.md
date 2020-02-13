@@ -2,7 +2,7 @@
 layout: post
 title: "A nonlinear leg damping model for the prediction of running forces and stability"
 date: 2015-11-02
-image: 
+image: /images/SLIP.png
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, ZhuoHua Shen, Justin Seipel"
@@ -15,4 +15,3 @@ Despite the neuromechanical complexity underlying animal locomotion, the steady-
 and ground reaction forces of animal running can be predicted by simple spring-mass models such as the
 canonical spring-loaded inverted pendulum (SLIP) model. Here, we develop a leg damping model that is bilinear
 in leg length and velocity in order to yield improved damping force and ground reaction force prediction.
-
