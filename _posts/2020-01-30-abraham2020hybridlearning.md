@@ -2,7 +2,7 @@
 layout: post
 title: "Hybrid Control for Learning Motor Skills"
 date: 2020-01-30
-image:
+image: /images/franka_picknplace_imitation.gif
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, Alexander Broad, Allison Pinosky, Brenna Argall, Todd Murphey"

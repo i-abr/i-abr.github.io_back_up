@@ -2,7 +2,7 @@
 layout: post
 title: "Ergodic Measure for Active Learning From Equilibrium"
 date: 2020-01-27
-image:
+image: /images/erg_bayes_opt.gif
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, Ahalya Prabhakar, Todd Murphey"

@@ -2,12 +2,11 @@
 layout: post
 title: "Data-driven Koopman Operators for Model-based Shared Control of Human-Machine Systems"
 date: 2019-07-21
-image: 
+image: /images/shared_control.png
 categories: research
 author: Ian Abraham
 authors: "Alexander Broad, <strong>Ian Abraham</strong>, Brenna Argall, Todd Murphey"
 venue: "(conditionally Accepted) International Journal of Robotics Research"
-arxiv: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8988215&tag=1
 ---
 
 

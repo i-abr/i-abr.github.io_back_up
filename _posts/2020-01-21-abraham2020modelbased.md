@@ -2,7 +2,7 @@
 layout: post
 title: "Model-based Generalization under Parameter Uncertainty using Path Integral Control"
 date: 2020-01-21
-image: 
+image: /images/franka_obj_reconfig.gif
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, Ankur Handa, Nathan Ratliff, Kendall Lowrey, Todd Murphey, Dieter Fox"
