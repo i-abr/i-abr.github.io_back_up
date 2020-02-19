@@ -9,6 +9,7 @@ authors: "<strong>Ian Abraham</strong>, Ahalya Prabhakar, MitraJZ Hartmann, Todd
 venue: "IEEE Robotics and Automation Letters"
 arxiv: https://arxiv.org/abs/1709.01560
 ---
+
 Current methods to estimate object shape—using either vision or touch—generally depend on high-resolution sensing. Here,
 we exploit ergodic exploration to demonstrate successful shape estimation when using a low-resolution binary contact
 sensor.

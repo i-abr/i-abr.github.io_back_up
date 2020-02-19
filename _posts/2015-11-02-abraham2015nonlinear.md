@@ -11,7 +11,7 @@ arxiv: https://asmedigitalcollection.asme.org/computationalnonlinear/article-abs
 ---
 
 
-Despite the neuromechanical complexity underlying animal locomotion, the steady-state center-of-mass motions
-and ground reaction forces of animal running can be predicted by simple spring-mass models such as the
-canonical spring-loaded inverted pendulum (SLIP) model. Here, we develop a leg damping model that is bilinear
-in leg length and velocity in order to yield improved damping force and ground reaction force prediction.
+Despite the neuromechanical complexity underlying animal locomotion, the steady-state center-of-mass motions and ground
+reaction forces of animal running can be predicted by simple spring-mass models such as the canonical spring-loaded
+inverted pendulum (SLIP) model. Here, we develop a leg damping model that is bilinear in leg length and velocity in
+order to yield improved damping force and ground reaction force prediction.

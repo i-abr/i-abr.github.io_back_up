@@ -12,8 +12,18 @@
   <link rel="stylesheet" type="text/css" href="/style.css" />
   <link rel="canonical" href="http://localhost:4000/">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-  <link rel="icon" type="image/png" href="images/seal_icon.png">
-
+  <link rel="icon" type="image/gif" href="images/rat_whisking.gif">
+  <style>
+      hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+      }
+  </style>
 </head>
 
 
@@ -28,15 +38,14 @@
               <h1>
                   Ian Abraham
               </h1>
-              <p>
-                  
+              <p style="text-align:justify">
                   I am a PhD candidate in robotics at the <a href="https://robotics.northwestern.edu/">Center for Robotics and Biosystems</a> at
                   <a href="https://www.northwestern.edu/">Northwestern University</a>
                   where I work on optimal sensing and control with <a href="https://murpheylab.github.io/">Todd D. Murphey</a>.
 
               </p>
 
-              <p>
+              <p style="text-align:justify">
 
                   During my Ph.D. time at Northwestern, I interned at the <a
                   href="https://www.nvidia.com/en-us/research/robotics/">NVIDIA Seattle Robotics Lab</a> where I worked
@@ -48,7 +57,7 @@
               </p>
 
               <p style="text-align:center">
-                <a target="_blank" href="ianabraham21@gmail.com"> Email</a> &nbsp;/&nbsp;
+                <a href="mailto:ianabraham21@gmail.com">Email</a> &nbsp;/&nbsp;
                 <a href="/pdfs/abraham-cv.pdf"> CV </a> &nbsp;/&nbsp;
                 <a href="https://github.com/i-abr">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=URUPd4sAAAAJ&hl=en">Google Scholar</a>
@@ -60,19 +69,54 @@
           </tr>
         </table>
 
+        <hr>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Research</h2>
-              <p>
-                  I am interested in a lot of different aspects of robotics (sensing, learning, control, swarm coordination, imitation and adaptation).
-                  As a result, my research often resides at the intersection of many different subfields within robotics.
-                  In general, my goal is to enable robotic systems to be self-sufficient and adaptive in the field with minimal human intervention.
+            </td>
+          </tr>
+        </table>
+        <hr>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+              <td align="center" style="padding:2px;width:100%;vertical-align:middle">
+                  <img src="/images/rat_whisking.gif" style="padding:6px;max-width:30%;max-height:50%;"/>
+                  <img src="/images/ant_running.gif" style="padding:6px;max-width:30%;max-height:50%;"/>
+                  <img src="/images/hand_manip.gif" style="padding:6px;max-width:30%;max-height:50%;"/>
+              </td>
+          </tr>
+          <tr>
+            <td style="padding:1.5%;width:100%;vertical-align:middle">
+              <p style="text-align:justify">
+
+                  My research is at the intersection of many subfields within robotics such as bio-inspired active
+                  sensing, learning, control, swarm coordination, imitation and adaptation. As a result, my work has
+                  successfully developed methods which improve the capabilities of robotic systems to be reliable in
+                  situations which require them to be self-sufficient and adaptive with minimal human intervention. This
+                  is accomplished through the combination of active sensing and learning, with hybrid optimal control
+                  theory as the glue which allows some of my test robotic platforms to exhibit near single-execution learning
+                  capabilities while providing safety guarantees.
+
               </p>
             </td>
           </tr>
         </table>
 
+        <hr>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Publications</h2>
+            </td>
+          </tr>
+        </table>
+
+        <hr>
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
@@ -99,13 +143,14 @@
                           <br>
                           
                           
-                          <p></p>
-                          <p>We develop a hybrid control approach for robot learning based on combining learned predictive models with
-experience-based state-action policy mappings to improve the learning capabilities of robotic systems. Hybrid
-control tools are used to create an algorithmic approach for combining learned predic- tive models with
-experience-based learning. Hybrid learning is presented as a method for efficiently learning motor skills by
-systematically combin- ing and improving the performance of predictive models and experience- based policies.</p>
+                          <p style="text-align:justify">
+                                <p>We develop a hybrid control approach for robot learning based on combining learned predictive models with
+experience-based state-action policy mappings to improve the learning capabilities of robotic systems. Hybrid control
+tools are used to create an algorithmic approach for combining learned predictive models with experience-based learning.
+Hybrid learning is presented as a method for efficiently learning motor skills by systematically combining and improving
+the performance of predictive models and experience- based policies.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -133,12 +178,13 @@ systematically combin- ing and improving the performance of predictive models an
                           <br>
                           
                           
-                          <p></p>
-                          <p>This paper develops KL-Ergodic Exploration from Equilibrium (KL-E 3 ), a method for robotic systems to inte- grate
+                          <p style="text-align:justify">
+                                <p>This paper develops KL-Ergodic Exploration from Equilibrium (KL-E 3 ), a method for robotic systems to integrate
 stability into actively generating informative measurements through ergodic exploration. Ergodic exploration enables
-robotic systems to indirectly sample from informative spatial distribu- tions globally, avoiding local optima, and
+robotic systems to indirectly sample from informative spatial distributions globally, avoiding local optima, and
 without the need to evaluate the derivatives of the distribution against the robot dynamics.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -165,15 +211,16 @@ without the need to evaluate the derivatives of the distribution against the rob
                             <em>IEEE Robotics and Automation Letters</em>, 2020
                           <br>
                           
-                            / <a href="https://sites.google.com/view/emppi">project page</a>
+                             <a href="https://sites.google.com/view/emppi">project page</a>
                           
                           
-                          <p></p>
-                          <p>This work addresses the problem of robot interaction in complex environments where online control and adaptation
-is necessary. By expanding the sample space in the free energy formulation of path integral control, we derive a
-natural extension to the path integral control that embeds uncertainty into action and provides robustness for
-model-based robot planning.</p>
+                          <p style="text-align:justify">
+                                <p>This work addresses the problem of robot interaction in complex environments where online control and adaptation is
+necessary. By expanding the sample space in the free energy formulation of path integral control, we derive a natural
+extension to the path integral control that embeds uncertainty into action and provides robustness for model-based robot
+planning.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -201,11 +248,12 @@ model-based robot planning.</p>
                           <br>
                           
                           
-                          <p></p>
-                          <p>This paper develops a method for robots to integrate stability into actively seeking out informative measurements
+                          <p style="text-align:justify">
+                                <p>This paper develops a method for robots to integrate stability into actively seeking out informative measurements
 through coverage. We show that our method is able to maintain Lyapunov attractiveness while still actively seeking out
 data.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -233,9 +281,15 @@ data.</p>
                           <br>
                           
                           
-                          <p></p>
-                          <p>Rodents tactually explore the environment using ~62 whiskers (vibrissae), regularly arranged in arrays on both sides of the face. The rat vibrissal system is one of the most commonly used models to study how the brain encodes and processes somatosensory information. To date, however, researchers have been unable to quantify the mechanosensory input at the base of each whisker, because the field lacks accurate models of three-dimensional whisker dynamics. To close this gap, we developed WHISKiT Physics, a simulation framework that incorporates realistic morphology of the full rat whisker array to predict time-varying mechanical signals for all whiskers.</p>
+                          <p style="text-align:justify">
+                                <p>Rodents tactually explore the environment using ~62 whiskers (vibrissae), regularly arranged in arrays on both sides of
+the face. The rat vibrissal system is one of the most commonly used models to study how the brain encodes and processes
+somatosensory information. To date, however, researchers have been unable to quantify the mechanosensory input at the
+base of each whisker, because the field lacks accurate models of three-dimensional whisker dynamics. To close this gap,
+we developed WHISKiT Physics, a simulation framework that incorporates realistic morphology of the full rat whisker
+array to predict time-varying mechanical signals for all whiskers.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -261,12 +315,13 @@ data.</p>
                           <br>
                           
                           
-                          <p></p>
-                          <p>We present a data-driven shared control algorithm that can be used to improve a human operator’s control of complex
-dynamic machines and achieve tasks that would otherwise be challenging, or impossible, for the user on their own.
-Our method assumes no a priori knowledge of the system dynamics. Instead, both the dynamics and information
-about the user’s interaction are learned from observation through the use of a Koopman operator.</p>
+                          <p style="text-align:justify">
+                                <p>We present a data-driven shared control algorithm that can be used to improve a human operator’s control of complex
+dynamic machines and achieve tasks that would otherwise be challenging, or impossible, for the user on their own. Our
+method assumes no a priori knowledge of the system dynamics. Instead, both the dynamics and information about the user’s
+interaction are learned from observation through the use of a Koopman operator.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -293,15 +348,16 @@ about the user’s interaction are learned from observation through the use of a
                             <em>IEEE Transactions on Robotics</em>, 2019
                           <br>
                           
-                            / <a href="https://github.com/i-abr/active-learning-koopman">project page</a>
+                             <a href="https://github.com/i-abr/active-learning-koopman">project page</a>
                           
                           
-                            / <a href="https://github.com/i-abr/active-learning-koopman">code</a>
+                             <a href="https://github.com/i-abr/active-learning-koopman">code</a>
                           
-                          <p></p>
-                          <p>This paper presents an active learning strategy for robotic systems that takes into account task information, enables
+                          <p style="text-align:justify">
+                                <p>This paper presents an active learning strategy for robotic systems that takes into account task information, enables
 fast learning, and allows control to be readily synthesized by taking advantage of the Koopman operator representation.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -329,11 +385,12 @@ fast learning, and allows control to be readily synthesized by taking advantage 
                           <br>
                           
                           
-                          <p></p>
-                          <p>We present a decentralized ergodic control policy for time-varying area coverage problems for multiple agents with
+                          <p style="text-align:justify">
+                                <p>We present a decentralized ergodic control policy for time-varying area coverage problems for multiple agents with
 nonlinear dynamics. Ergodic control allows us to specify distributions as objectives for area coverage problems for
 nonlinear robotic systems as a closed-form controller.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -361,9 +418,13 @@ nonlinear robotic systems as a closed-form controller.</p>
                           <br>
                           
                           
-                          <p></p>
-                          <p>We develop an algorithm to explore an environment to generate a measurement model for use in future localization tasks. Ergodic exploration with respect to the likelihood of a particular class of measurement (eg, a contact detection measurement in tactile sensing) enables construction of the measurement model. Exploration with respect to the information density based on the data-driven measurement model enables localization.</p>
+                          <p style="text-align:justify">
+                                <p>We develop an algorithm to explore an environment to generate a measurement model for use in future localization tasks.
+Ergodic exploration with respect to the likelihood of a particular class of measurement (eg, a contact detection
+measurement in tactile sensing) enables construction of the measurement model. Exploration with respect to the
+information density based on the data-driven measurement model enables localization.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -391,9 +452,13 @@ nonlinear robotic systems as a closed-form controller.</p>
                           <br>
                           
                           
-                          <p></p>
-                          <p>We present a structured neural network architecture that is inspired by linear time-varying dynamical systems. The network is designed to mimic the properties of linear dynamical systems which makes analysis and control simple. The architecture facilitates the integration of learned system models with gradient-based model predictive control algorithms, and removes the requirement of computing potentially costly derivatives online.</p>
+                          <p style="text-align:justify">
+                                <p>We present a structured neural network architecture that is inspired by linear time-varying dynamical systems. The
+network is designed to mimic the properties of linear dynamical systems which makes analysis and control simple. The
+architecture facilitates the integration of learned system models with gradient-based model predictive control
+algorithms, and removes the requirement of computing potentially costly derivatives online.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -421,14 +486,15 @@ nonlinear robotic systems as a closed-form controller.</p>
                           <br>
                           
                           
-                            / <a href="https://github.com/MurpheyLab/ergodic_iSAC_localization">code</a>
+                             <a href="https://github.com/MurpheyLab/ergodic_iSAC_localization">code</a>
                           
-                          <p></p>
-                          <p>Although a number of solutions exist for the problems of coverage, search and target localization—commonly addressed
+                          <p style="text-align:justify">
+                                <p>Although a number of solutions exist for the problems of coverage, search and target localization—commonly addressed
 separately—whether there exists a unified strategy that addresses these objectives in a coherent manner without being
 application-specific remains a largely open research question. In this paper, we develop a receding-horizon ergodic
 control approach, based on hybrid systems theory, that has the potential to fill this gap.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -456,11 +522,12 @@ control approach, based on hybrid systems theory, that has the potential to fill
                           <br>
                           
                           
-                          <p></p>
-                          <p>Current methods to estimate object shape—using either vision or touch—generally depend on high-resolution sensing. Here,
+                          <p style="text-align:justify">
+                                <p>Current methods to estimate object shape—using either vision or touch—generally depend on high-resolution sensing. Here,
 we exploit ergodic exploration to demonstrate successful shape estimation when using a low-resolution binary contact
 sensor.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -488,16 +555,16 @@ sensor.</p>
                           <br>
                           
                           
-                            / <a href="https://github.com/i-abr/mpc-koopman">code</a>
+                             <a href="https://github.com/i-abr/mpc-koopman">code</a>
                           
-                          <p></p>
-                          <p>This paper explores the application of Koopman operator theory to the control of robotic systems. The Koopman operator
+                          <p style="text-align:justify">
+                                <p>This paper explores the application of Koopman operator theory to the control of robotic systems. The Koopman operator
 takes any observation of state at time t and evolves the functions of state subject to its dynamics forward in time
 linearly. Thus, a nonlinear dynamical system which has a discoverable Koopman operator can be represented by a linear
 Koopman operator in a lifted function space where the observations of state evolve linearly. We illustrate how the
-operator can be used to obtain a linearizable data-driven model of robotic systems for
-model-based control synthesis.</p>
+operator can be used to obtain a linearizable data-driven model of robotic systems for model-based control synthesis.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -525,12 +592,13 @@ model-based control synthesis.</p>
                           <br>
                           
                           
-                          <p></p>
-                          <p>Despite the neuromechanical complexity underlying animal locomotion, the steady-state center-of-mass motions
-and ground reaction forces of animal running can be predicted by simple spring-mass models such as the
-canonical spring-loaded inverted pendulum (SLIP) model. Here, we develop a leg damping model that is bilinear
-in leg length and velocity in order to yield improved damping force and ground reaction force prediction.</p>
+                          <p style="text-align:justify">
+                                <p>Despite the neuromechanical complexity underlying animal locomotion, the steady-state center-of-mass motions and ground
+reaction forces of animal running can be predicted by simple spring-mass models such as the canonical spring-loaded
+inverted pendulum (SLIP) model. Here, we develop a leg damping model that is bilinear in leg length and velocity in
+order to yield improved damping force and ground reaction force prediction.</p>
 
+                            </p>
                         </td>
                       </tr>
                   
@@ -558,10 +626,11 @@ in leg length and velocity in order to yield improved damping force and ground r
                           <br>
                           
                           
-                          <p></p>
-                          <p>Autonomous underwater gliders (AUG) is a cost-effective and efficient tool for oceanic exploration and discovery.
-In this paper, we present a model predictive control (MPC) design to compensate for the drift due to disturbances.</p>
+                          <p style="text-align:justify">
+                                <p>Autonomous underwater gliders (AUG) is a cost-effective and efficient tool for oceanic exploration and discovery. In
+this paper, we present a model predictive control (MPC) design to compensate for the drift due to disturbances.</p>
 
+                            </p>
                         </td>
                       </tr>
                   

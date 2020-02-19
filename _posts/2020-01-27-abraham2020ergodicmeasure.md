@@ -11,7 +11,7 @@ pdf: /pdfs/abraham_2019_tase.pdf
 ---
 
 
-This paper develops KL-Ergodic Exploration from Equilibrium (KL-E 3 ), a method for robotic systems to inte- grate
+This paper develops KL-Ergodic Exploration from Equilibrium (KL-E 3 ), a method for robotic systems to integrate
 stability into actively generating informative measurements through ergodic exploration. Ergodic exploration enables
-robotic systems to indirectly sample from informative spatial distribu- tions globally, avoiding local optima, and
+robotic systems to indirectly sample from informative spatial distributions globally, avoiding local optima, and
 without the need to evaluate the derivatives of the distribution against the robot dynamics.
