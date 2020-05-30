@@ -6,7 +6,7 @@ image: /images/franka_picknplace_imitation.gif
 categories: research
 author: Ian Abraham
 authors: "<strong>Ian Abraham</strong>, Alexander Broad, Allison Pinosky, Brenna Argall, Todd Murphey"
-venue: "(submitted) Workshop on Algorithmic Foundations of Robotics "
+venue: "Workshop on Algorithmic Foundations of Robotics "
 pdf: /pdfs/hlt.pdf
 ---
 
