@@ -7,7 +7,7 @@ categories: research
 author: "Ian Abraham"
 authors: "<strong>Ian Abraham</strong>, Todd D. Murphey"
 project_page: "https://github.com/i-abr/active-learning-koopman"
-venue: "IEEE Transactions on Robotics"
+venue: "IEEE Transactions on Robotics (King-Sun Fu Best Paper Award)"
 arxiv: https://arxiv.org/abs/1906.05194
 code: https://github.com/i-abr/active-learning-koopman
 ---
