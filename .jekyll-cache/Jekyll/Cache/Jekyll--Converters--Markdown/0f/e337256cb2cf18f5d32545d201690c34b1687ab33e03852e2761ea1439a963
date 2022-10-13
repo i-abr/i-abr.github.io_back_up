@@ -1,8 +1,0 @@
-I"ó<p>Some re-implementations of standard stereo correspondence algorithms, along with experiments using classification for stereo matching.</p>
-
-<p>In this project, we are exploring the application of machine learning to solving the classical stereoscopic correspondence problem. We present a re-implementation of several state-of-the-art stereo correspondence methods. Additionally, we present new methods, replacing one of the state-of-the-art methods for stereo with a proposed technique based on machine learning methods. These new methods out-perform existing heuristic baselines significantly.</p>
-
-<p><a href="/pdfs/cs231a.pdf" target="_blank">CS231A Paper</a></p>
-
-<p><a href="https://github.com/leonidk/centest" target="_blank">Source Code</a></p>
-:ET
